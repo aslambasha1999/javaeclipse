@@ -56,6 +56,13 @@ public class AmazonFeaturesSteps {
 		System.out.println(driver.getTitle());
 	    
 	}
+	
+	@Then("Close the Browser")
+	public void close_the_browser() {
+	   
+		driver.close();
+		driver.quit();
+	}
 
 
 }

@@ -9,3 +9,4 @@ Feature: Amazon Search Functionality validations
     And User Enters the Vince code  Book on search Box
     And Hits the Search button
     Then validate the Results count
+    And Close the Browser
